@@ -1,0 +1,22 @@
+.barEnd{
+    display: flex;
+  justify-content: space-between;
+}
+.Country{
+      display: flex;
+    flex-flow: wrap;
+    padding:20px 0px 0px;
+    margin: 88px 170px 80px;
+    
+}
+.cont{
+    width: fit-content;
+    padding:10px;
+}
+.cont:hover{
+    box-shadow: 1px 1px grey;
+}
+button{
+    background-color:#3d83df;
+    border-radius: 4px;
+}

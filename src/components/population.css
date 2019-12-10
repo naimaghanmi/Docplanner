@@ -1,0 +1,36 @@
+.col-1
+{
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+    text-align: center;
+    width:25%;
+    height: 30%;
+    padding: 20px;
+    margin:60px 40px;
+    background-color: white;
+ 
+}
+.col-1:nth-child(even){
+    margin-top:5px
+}
+
+
+
+ h4{
+    color: #00b39b;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: .3px;
+}
+.col-1 img{
+    fill:#00b39b;
+    width: 50px;
+}
+.col-1 p{
+    text-align: center;
+}
+.coll{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}

@@ -1,0 +1,11 @@
+
+ .Item {
+    display: flex;
+    flex-flow: wrap;
+    width:70%;
+ 
+    }
+.lst .svg {
+    fill:#747474;
+    height: 100px;
+}

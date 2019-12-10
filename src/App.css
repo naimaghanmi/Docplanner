@@ -1,0 +1,127 @@
+
+.navMenu{
+  padding :0px 160px;
+  position: sticky;
+  top:0;
+  background-color: white;
+ box-shadow: 0 -2px 10px 0 rgba(0,0,0,.15);
+
+
+  
+}
+.navbar
+{
+  position:relative;
+  align-items: center;
+  padding-right: 80px;
+  list-style: none;
+ display: flex;
+ float: right;
+     background-color: white;
+    
+}
+.header-list:hover{ color:#00b39b}
+.dropdown-content:hover{color:#00b39b}
+li {
+  padding: 0px 10px;
+  list-style: none;
+  display: inline-block;
+  color: gray;
+  font-size:large;
+}
+ .header-list
+ {
+  display: flex;
+  align-items: center;
+  position: relative;
+ }
+
+ .navMenu img{
+   width: 200px;
+   padding: 20px;
+ }
+ .dropdown-content{
+  display: none;
+  padding: 12px 16px;
+  top: 50px;
+  min-width: 200px;
+  margin-left: -100px;
+     background: #fff;
+     box-shadow: 0 5px 10px 0 #d3cfc9;
+     display: none; 
+     color:gray;
+ 
+ }
+ .header-list{
+  position: relative;
+ }
+ .header-list:hover .dropdown-content {
+  display: block;}
+
+.dropD{
+  margin-top: 165px;
+  position: absolute;
+}
+span{
+  color: #00CCB1;
+  text-align: center;
+}
+.popDES{
+  display: flex;
+  background-color: #e5faf8;
+  top:20px;
+  background-image:url("https://www.docplanner.com/img/logo.png");
+  background-repeat: no-repeat;
+   background-position: 10px 338px;
+
+}
+.middle p{
+  text-align: center;
+  margin: 20px 0px;
+}
+.middle{
+  padding:  0px 10px;
+  display: block;
+  margin-left: 400px;
+  width: 500px;
+}
+.footer {
+border-top: 1px solid #eef2f2; display: block;
+text-align: center;
+padding:20px;
+}
+.footer a {
+  text-decoration: none;
+  color: #3d83df;
+}
+.svg {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  margin:60px 40px;
+  fill:gray;}
+
+.svg .lst:hover{fill:#00CCB1}
+  
+
+.global{
+  width:30%;
+  color:#00CCB1;
+  font-size: 1.625em;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  letter-spacing: .3px;
+}
+h1{
+  color:#00CCB1;
+  font-size: 1.625em;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  letter-spacing: .3px;
+}
+SecondPart  {background-color: #00CCB1;}
+
+
+
+
+
